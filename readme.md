@@ -39,7 +39,6 @@ python script.py <arquivo> [-o <output_directory>]
 python script.py example.docx -o ./output/
 ```
 
-
 This will:
 1. Extract text and images from `example.docx`.
 2. Save the extracted text as `example_output.txt` in the `./output/example/` directory.
