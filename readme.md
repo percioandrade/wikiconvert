@@ -17,6 +17,10 @@
 
 You can install the required libraries using pip:
 
+```bash
+pip install python-docx Pillow
+```
+
 ## Usage
 
 Run the script from the command line with the following syntax:
@@ -45,14 +49,14 @@ This will:
 
 The extracted content will be organized as follows:
 
-<output_directory>/
-└── <document_name>/
-├── <document_name>_output.txt
+* <output_directory>/
+* └── <document_name>/
+* ├── <document_name>_output.txt
 
 # Extracted text
-├── <document_name>_01.png # Extracted images
-├── <document_name>_02.png
-└── 
+* ├── <document_name>_01.png # Extracted images
+* ├── <document_name>_02.png
+* └── <document_name>_03.png
 
 ## Logging
 
