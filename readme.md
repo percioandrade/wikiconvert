@@ -21,7 +21,7 @@ You can install the required libraries using pip:
 
 Run the script from the command line with the following syntax:
 ```bash
-    python script.py <arquivo> [-o <output_directory>]
+python script.py <arquivo> [-o <output_directory>]
 ```
 
 ### Positional Arguments
@@ -32,7 +32,7 @@ Run the script from the command line with the following syntax:
 
 ### Example
 ```bash
-    python script.py example.docx -o ./output/
+python script.py example.docx -o ./output/
 ```
 
 
